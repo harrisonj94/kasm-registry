@@ -4,7 +4,7 @@ const nextConfig = {
   env: {
     name: 'ESG Global',
     description: 'Kasm workspaces for ESG Global use.',
-    icon: '/img/esg.svg',
+    icon: 'https://raw.githubusercontent.com/harrisonj94/kasm-registry/1.0/img/esg.svg',
     listUrl: 'https://harrisonj94.github.io/kasm-registry/',
     contactUrl: 'https://github.io/harrisonj94skasm-registry/issues',
   },
