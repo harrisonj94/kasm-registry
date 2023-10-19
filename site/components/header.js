@@ -26,24 +26,24 @@ export default function Header({ searchText, changeSearch }) {
         <img src={logo.src} alt="ESG Global" className="h-24" />
         </div>
         <div className="text-sm uppercase w-full flex justify-between">
-          <span className='opacity-70'>W</span>
-          <span className='opacity-70'>o</span>
-          <span className='opacity-70'>r</span>
-          <span className='opacity-70'>k</span>
-          <span className='opacity-70'>s</span>
-          <span className='opacity-70'>p</span>
-          <span className='opacity-70'>a</span>
-          <span className='opacity-70'>c</span>
-          <span className='opacity-70'>e</span>
-          <span>&nbsp;</span>
-          <span className='opacity-40'>R</span>
-          <span className='opacity-40'>e</span>
-          <span className='opacity-40'>g</span>
-          <span className='opacity-40'>i</span>
-          <span className='opacity-40'>s</span>
-          <span className='opacity-40'>t</span>
-          <span className='opacity-40'>r</span>
-          <span className='opacity-40'>y</span>
+          <span className='opacity-70'>W</span><span>&nbsp;</span>
+          <span className='opacity-70'>o</span><span>&nbsp;</span>
+          <span className='opacity-70'>r</span><span>&nbsp;</span>
+          <span className='opacity-70'>k</span><span>&nbsp;</span>
+          <span className='opacity-70'>s</span><span>&nbsp;</span>
+          <span className='opacity-70'>p</span><span>&nbsp;</span>
+          <span className='opacity-70'>a</span><span>&nbsp;</span>
+          <span className='opacity-70'>c</span><span>&nbsp;</span>
+          <span className='opacity-70'>e</span><span>&nbsp;</span>
+          <span>&nbsp;</span><span>&nbsp;</span>
+          <span className='opacity-40'>R</span><span>&nbsp;</span>
+          <span className='opacity-40'>e</span><span>&nbsp;</span>
+          <span className='opacity-40'>g</span><span>&nbsp;</span>
+          <span className='opacity-40'>i</span><span>&nbsp;</span>
+          <span className='opacity-40'>s</span><span>&nbsp;</span>
+          <span className='opacity-40'>t</span><span>&nbsp;</span>
+          <span className='opacity-40'>r</span><span>&nbsp;</span>
+          <span className='opacity-40'>y</span><span>&nbsp;</span>
         </div>
       </div>
       <nav className='relative z-10 mx-12'>
