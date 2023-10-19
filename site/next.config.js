@@ -2,11 +2,11 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
-    icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
-    contactUrl: 'https://kasmweb.com/support',
+    name: 'ESG Global',
+    description: 'Kasm workspaces for ESG Global use.',
+    icon: '/img/esg.svg',
+    listUrl: 'https://harrisonj94.github.io/kasm-registry/',
+    contactUrl: 'https://github.io/harrisonj94skasm-registry/issues',
   },
   reactStrictMode: true,
   swcMinify: true,
