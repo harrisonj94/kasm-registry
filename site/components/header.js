@@ -2,6 +2,7 @@ import Bubbles from '../components/Bubbles'
 import Link from 'next/link'
 import { useRouter } from "next/router";
 import { NotificationManager } from 'react-notifications';
+import logo from '../public/logo.svg'
 
 export default function Header({ searchText, changeSearch }) {
 
@@ -16,13 +17,14 @@ export default function Header({ searchText, changeSearch }) {
   }
   const listUrl = process.env.listUrl;
   const router = useRouter();
-  const getLink = (path) => `${router.basePath}${path}`;
 
   return (
-    <header className="relative font-light overflow-hidden bg-gradient-to-tr from-[#162d48] to-[#2980b9] p-8 xl:px-32 text-white gap-5 md:gap-0 flex flex-wrap justify-center items-center">
+    <header className="relative font-light overflow-hidden bg-gradient-to-tr from-[#24466e] to-[#0073fa] p-8 xl:px-32 text-white gap-5 md:gap-0 flex flex-wrap justify-center items-center">
       <Bubbles />
       <div className='relative z-10'>
-        <div className="text-3xl">{process.env.name}</div>
+        <div className="text-3xl">
+        <img src={logo.src} alt="LinuxServer.io" className="h-10" />
+        </div>
         <div className="text-sm uppercase w-full flex justify-between">
           <span className='opacity-70'>W</span>
           <span className='opacity-70'>o</span>
@@ -45,8 +47,8 @@ export default function Header({ searchText, changeSearch }) {
         </div>
       </div>
       <nav className='relative z-10 mx-12'>
-        <a href={getLink("/")} className={'p-4 inline-block rounded-full border border-solid' + (router.pathname == "/" ? ' border-white/30' : ' border-transparent')}>Library</a>
-        <Link href="/new/" className={'p-4 inline-block rounded-full border border-solid' + (router.pathname.startsWith("/new") ? ' bg-black/10 border-white/30' : ' border-transparent')}>New</Link>
+        <a href="/" className={'p-4 inline-block rounded-full border border-solid' + (router.pathname == "/" ? ' border-white/30' : ' border-transparent')}>Library</a>
+        <Link href="/new" className={'p-4 inline-block rounded-full border border-solid' + (router.pathname.startsWith("/new") ? ' bg-black/10 border-white/30' : ' border-transparent')}>New</Link>
       </nav>
       <div className="grow flex justify-center relative z-10">
         <div className='bg-black/10 shadow border border-1 border-white/30 rounded flex w-full max-w-md'>
@@ -62,7 +64,7 @@ export default function Header({ searchText, changeSearch }) {
         </div>
 
       </div>
-      <button className='p-4 relative z-10 px-5 bg-[#162d48]/70 border-t border-white/20 border-solid hover:bg-slate-900 transition shadow-lg m-2 rounded items-center text-white/70 flex cursor-pointer' onClick={() => { copyToClipboard() }}>
+      <button className='p-4 relative z-10 px-5 bg-[#0073fa]/70 border-t border-white/20 border-solid hover:bg-slate-900 transition shadow-lg m-2 rounded items-center text-white/70 flex cursor-pointer' onClick={() => { copyToClipboard() }}>
         <span className="mr-3">Workspace Registry Link</span>
         <svg style={{ height: '14px', fill: '#fff' }} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M224 0c-35.3 0-64 28.7-64 64V288c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H224zM64 160c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64H288c35.3 0 64-28.7 64-64V384H288v64H64V224h64V160H64z" /></svg>
       </button>
