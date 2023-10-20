@@ -1,0 +1,24 @@
+{
+  "friendly_name": "Azure Data Studio",
+  "image_src": "azure-data-studio.png",
+  "description": "Azure Data Studio is a data management and development tool with connectivity to popular cloud and on-premises databases",
+  "name": "ghcr.io/harrisonj94/kasm-rocky-9-desktop-custom:main",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://ghcr.io/",
+  "categories": [
+    "Development"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    "1.14.x"
+  ],
+  "uncompressed_size_mb": 3060
+}
