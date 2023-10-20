@@ -6,7 +6,7 @@ const nextConfig = {
     description: 'Kasm workspaces for ESG Global use.',
     icon: '/public/logo.svg',
     listUrl: 'https://harrisonj94.github.io/kasm-registry/',
-    contactUrl: 'https://github.io/harrisonj94skasm-registry/issues',
+    contactUrl: 'https://github.io/harrisonj94/kasm-registry/issues',
   },
   reactStrictMode: true,
   swcMinify: true,
