@@ -4,7 +4,7 @@ import { saveAs } from 'file-saver';
 import CreatableSelect from 'react-select/creatable';
 import Select from 'react-select';
 import { useRouter } from 'next/router'
-import allworkspaces from '../../public/list.json'
+import allworkspaces from '../../../public/list.json'
 
 
 export async function getStaticPaths() {
