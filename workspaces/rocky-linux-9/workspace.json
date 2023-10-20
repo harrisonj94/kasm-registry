@@ -1,6 +1,6 @@
 {
   "friendly_name": "Rocky Linux 9",
-  "image_src": "rocky.png",
+  "image_src": "rocky-linux-9.png",
   "description": "Rocky Linux is a Linux distribution developed by Rocky Enterprise Software Foundation, which is a privately owned benefit corporation that describes itself as a \"self imposed not-for-profit\".",
   "name": "ghcr.io/harrisonj94/kasm-rocky-9-desktop-custom:main",
   "cores": 2,
