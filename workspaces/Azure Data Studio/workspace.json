@@ -2,7 +2,7 @@
   "friendly_name": "Azure Data Studio",
   "image_src": "azure-data-studio.png",
   "description": "Azure Data Studio is a data management and development tool with connectivity to popular cloud and on-premises databases",
-  "name": "ghcr.io/harrisonj94/kasm-rocky-9-desktop-custom:main",
+  "name": "ghcr.io/harrisonj94/kasm-azure-data-studio:main",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
