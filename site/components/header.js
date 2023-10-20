@@ -47,7 +47,7 @@ export default function Header({ searchText, changeSearch }) {
         </div>
       </div>
       <nav className='relative z-10 mx-12'>
-        <Link href="/kasm-registry/1.0"><a className={'p-4 inline-block rounded-full border border-solid' + (router.pathname == "/kasm-registry/1.0" ? ' border-white/30' : ' border-transparent')}>Library</a></Link>
+        <a href={getLink("/")} className={'p-4 inline-block rounded-full border border-solid' + (router.pathname == "/" ? ' border-white/30' : ' border-transparent')}>Library</a>
         <Link href="/new" className={'p-4 inline-block rounded-full border border-solid' + (router.pathname.startsWith("/new") ? ' bg-black/10 border-white/30' : ' border-transparent')}>New</Link>
       </nav>
       <div className="grow flex justify-center relative z-10">
