@@ -17,7 +17,8 @@ export default function Header({ searchText, changeSearch }) {
   }
   const listUrl = process.env.listUrl;
   const router = useRouter();
-
+  const getLink = (path) => `${router.basePath}${path}`;
+  
   return (
     <header className="relative font-light overflow-hidden bg-gradient-to-tr from-[#24466e] to-[#0073fa] p-8 xl:px-32 text-white gap-5 md:gap-0 flex flex-wrap justify-center items-center">
       <Bubbles />
