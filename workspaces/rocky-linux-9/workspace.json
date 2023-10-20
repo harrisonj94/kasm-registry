@@ -7,7 +7,7 @@
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
-  "docker_registry": "https://ghcr.io/v2/"
+  "docker_registry": "https://ghcr.io/"
   "categories": [
     "Desktop",
     "Productivity",
