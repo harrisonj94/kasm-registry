@@ -1,0 +1,28 @@
+{
+  "friendly_name": "Wine",
+  "image_src": "wine.png",
+  "description": "Wine is a free, open-source compatibility layer that enables Windows applications to run on Unix-like operating systems.",
+  "name": "ghcr.io/harrisonj94/kasm-wine:main",
+  "cores": 2,
+  "memory": 2768,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://ghcr.io/",
+  "categories": [
+    "Desktop",
+    "Productivity",
+    "Development"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "notes": "",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    "1.14.x"
+  ],
+  "uncompressed_size_mb": 2650
+}
